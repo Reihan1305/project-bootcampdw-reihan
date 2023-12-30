@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+  font-family: "Poppins", sans-serif;
+  background-color: #dce0e4;
+}
+a:hover {
+  font-size: large;
+  font-style: bold;
+}
+/* navbar start */
+
+.container-navbar {
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divnavbar1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.style-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+}
+.style-li1 {
+  text-decoration: none;
+  font-size: medium;
+  color: black;
+}
+.active {
+  font-weight: bolder;
+  color: black;
+}
+
+.style-div2 {
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.style-li2 {
+  text-decoration: none;
+  font-size: medium;
+  color: white;
+  padding: 5px;
+}
+
+/* navbar finish */
+/* index start */
+.style-index {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  margin: 100px auto;
+  width: 700px;
+  background-color: white;
+  height: 300px;
+  padding: 50px;
+  box-shadow: 5px 2px 10px 2px black;
+}
+.container-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.style-download {
+  border-radius: 5px;
+  width: 100px;
+  padding: 2px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+.container-about {
+  display: flex;
+  flex-direction: column;
+  gap: 5;
+  list-style: none;
+  font-style: none;
+  font-size: larger;
+}
+.container-sosmed {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.sosmed-logo {
+  width: 30px;
+}
+.container-content {
+  box-shadow: 5px 5px 25px 5px black;
+  border-radius: 10px;
+  padding: 0;
+  gap: 0px;
+  margin-left: 10px;
+  width: 700px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.container-img {
+  margin: 0 0 0 0;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-sosmed {
+  margin: o auto 5000px auto;
+}
+.keterangan-img {
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+/* index finish */
+/* form start */
+.container-form {
+  background-color: #dce0e4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+.style-form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+.style-label {
+  font-style: bold;
+}
+.style-input {
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px 1px gray;
+}
+.style-btn {
+  margin-left: 75%;
+  margin-top: 15px;
+  padding: 5px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+/* form finish */
